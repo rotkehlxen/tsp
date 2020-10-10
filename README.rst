@@ -14,6 +14,9 @@ output provides the path to this virtual environment.) Activate the virtual envi
 "source path/to/virtualenv/bin/activate". To run unit tests, simply enter "pytest". To run the included
 Jupyter Notebook, start a notebook server by entering "jupyter-notebook".
 
+By the way: you can execute all of the above commands **without**
+activating the venv previously, by simply preceding all commands with
+"poetry run", eg. to start testing, say "poetry run pytest".
 
 Bayesian Statistics
 ===================
